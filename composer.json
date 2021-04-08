@@ -10,7 +10,10 @@
     "minimum-stability": "stable",
     "require": {
         "twig/twig": "^3.1",
-        "ext-pdo": "*"
+        "ext-pdo": "*",
+        "swiftmailer/swiftmailer": "^6.2",
+        "php-coord/php-coord": "^4.1",
+        "ehime/hello-world": "^1.0"
     },
     "require-dev": {
         "filp/whoops": "^2.9",

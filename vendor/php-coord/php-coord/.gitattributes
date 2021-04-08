@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+*.sqlite -text
+*.pdf -text
+/docs/images -text
+
+*.php diff=php
+
+/src/EPSG export-ignore
+/resources export-ignore
